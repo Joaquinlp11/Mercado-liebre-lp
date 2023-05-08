@@ -7,6 +7,23 @@ header {
     background-color: #EAC926;
     padding-bottom: 6px;
 }
+.cuotas {
+    display: flex;
+    justify-content: center;
+}
+
+.divisiones {
+    color: black;
+}
+
+.decoracion {
+    text-decoration: none;
+}
+
+
+.lista {
+    padding-bottom: 10px;
+}
 
 .cuerpo {
     font-size: 12px;
