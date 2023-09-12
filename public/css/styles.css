@@ -5,15 +5,13 @@
     border: 0;
     margin: 0;
 }
-#header {
 
+#header {
     width: 100vw;
     background-color: #EAC926;
-
 }
 
 .container{
-
     display: flex;
     flex-wrap: wrap;
     width: 90vw;
@@ -22,11 +20,9 @@
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
-
 }
 
 .image-mercado-liebre {
-
     display: flex;
     flex-wrap: wrap;
     width: 10vw;
@@ -37,26 +33,21 @@
 }
 
 .buscador-lupa{
-
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
     order: 1;
     flex-grow: .5;
-
 }
 
 .buscador{
-
-display: flex;
-flex-wrap: wrap;
-max-height: 15px;
-max-width: 40px;
-
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 15px;
+    max-width: 40px;
 }
 
 .icon-search {
-
     display: inline-flex;
     flex-wrap: wrap;
     background-color: whitesmoke;
@@ -75,7 +66,6 @@ max-width: 40px;
 }
 
 .cuerpo-texto-icono{
-
     display: flex;
     flex-wrap: wrap;
     flex-direction: row ;
@@ -84,48 +74,37 @@ max-width: 40px;
     order: 1;
     position: relative;
     top: 20px;
-
 }
 
 #banner {
-    
     display: block;
     max-width: 100vw;
     margin: auto;
     box-sizing: border-box;
-
 }
 
 .opciones-lista {
     display: none;
 }
 
-
-/* </head> */               
-
 /* <body> */                              
 
 body {
-
     margin: 0px;
     padding: 0px;
-
 }
 
 .seccion-ultima-visita {
-
     margin-top: 5vh;
     box-sizing: border-box;
 }
 
 .seccion-ofertas {
-
     margin-bottom: 5vh;
     box-sizing: border-box;
 }
 
 .hamburguer-button {
-
     display: block;
     background-color: #03264C;
     color: white;
@@ -154,25 +133,21 @@ body {
 }
 
 .items-main {
-
     display: block;
     max-width: 300px;
     margin: auto;
     padding: 10px;
     border-top: solid 1px #ebebeb;
     box-sizing: border-box;
-
 }
 
 .items-main-cafetera , .items-main-mcbook, .items-main-samsung, .items-main-tv{
-
     display: block;
     max-width: 280px;
     margin: auto;
     padding: 10px;
     border-top: solid 1px #ebebeb;
     box-sizing: border-box;
-
 }
 
 .info-items {
@@ -185,11 +160,9 @@ body {
     flex-direction: column;
     justify-content: space-around;
     border-top: solid 1px whitesmoke;
-
 }
 
 .items-imagenes {
-
     display: block;
     max-width: 100%;
     margin: auto;
@@ -197,7 +170,6 @@ body {
 }
 
 .titulares {
-
     display: flex;
     margin: auto;
     font-family: 'Roboto';
@@ -206,11 +178,9 @@ body {
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-
 }
 
 .precio-descuento {
-
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -219,40 +189,8 @@ body {
     box-sizing: border-box;
 }
 
-.precios {
-
-    display: flex;
-    flex-wrap: wrap;
-    color: rgb(100, 100, 100);
-    font-family: 'Roboto';
-    font-size: 18px;
-    align-items: center;
-    margin: 0px 5px;
-    order: 1;
-    flex-grow: 30%;
-    align-self: flex-end;
-    box-sizing: border-box;
-
-
-}
-
-.descuentos {
-
-    display: flex;
-    flex-wrap: wrap;
-    font-family: 'Roboto';
-    font-size: 14px;
-    margin: 0px 5px;
-    color: rgb(8, 196, 8);
-    order: 2;
-    flex-grow: 70%;
-    align-self: flex-end;
-    box-sizing: border-box;
-
-}
 
 .logo-transporte {
-
     display: flex;
     width: 30px;
     height: 30px;
@@ -267,11 +205,36 @@ body {
     position: relative;
     top: -25px;
     z-index: 1;
+}
 
+.precios {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(100, 100, 100);
+    font-family: 'Roboto';
+    font-size: 18px;
+    align-items: center;
+    margin: 0px 5px;
+    order: 1;
+    flex-grow: 30%;
+    align-self: flex-end;
+    box-sizing: border-box;
+}
+
+.descuentos {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin: 0px 5px;
+    color: rgb(8, 196, 8);
+    order: 2;
+    flex-grow: 70%;
+    align-self: flex-end;
+    box-sizing: border-box;
 }
 
 .descripciones {
-
     font-family: 'Roboto';
     font-size: 16px;
     color: gray;
@@ -286,7 +249,7 @@ body {
     box-sizing: border-box;
 }
 
-/* Pagina de registracion abre body */
+/*registro*/
 
 .formulario{
 
@@ -383,21 +346,17 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .botones-envio-borrar :hover{
-
     background-color: #0022AA;
     color: white;
 }
 
-/* Pagina de registracion cierra body */
 
-/* Pagina de inicion de sesion cierra body */
+/*inicio de secion*/ 
 
 .inicio-sesion{
-
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
@@ -410,7 +369,6 @@ body {
 }
 
 .formulario-inicio-sesion{
-
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
@@ -423,32 +381,24 @@ body {
 }
 
 .inicio-user-name {
-
     display: flex;
     width: 80%;
 }
 
-
 .input-user-name{
-
     display: flex;
     width: 100%;
     height: 20px;
     border-radius: 5px;
 }   
 
-
-
 .input-password{
-
     display: flex;
     width: 100%;
     height: 20px;
     border-radius: 5px;
 }
-
 .inicio-sesion-button {
-
     color: white;
     background-color: blue;
     height: 30px;
@@ -456,16 +406,9 @@ body {
     border-radius: 5px;
 }
 
-
-
-/* Pagina de inicio de sesion cierra body */
-
-/* </body> */                  /* **************************************************** */
-
-/* <footer */                     /* **************************************************** */
+/*footer*/          
 
 .footer-align {
-
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
@@ -476,11 +419,9 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
 }
 
 .icons-footer {
-
     display: block;
     color: #1259c3;
     width: 2em;
@@ -490,13 +431,11 @@ body {
 }
 
 .titulos-footer {
-
     font-family: 'Roboto';
     font-size: 20px;
 }
 
 .footer-payment{
-
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
@@ -508,7 +447,6 @@ body {
 }
 
 .footer-envios{
-
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
@@ -520,7 +458,6 @@ body {
 }
 
 .footer-seguridad{
-
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
@@ -532,7 +469,6 @@ body {
 }
 
 .footer-copyrigth{
-
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
@@ -542,50 +478,28 @@ body {
     width: 100%;
 }
 
-/* </footer */                              /* **************************************************** */
-
-
-/* MEDIA  */                                /* **************************************************** */
-
-/* Min width como minimo el VP tiene Nº px */
-/* Max width como maximo el VP tiene Nº px */
-
-
-
-/* A partir de aca, smaller spartphones */
-
-@media ( min-width : 0px){
+@media ( min-width : 0px) {
 
     .seccion-ofertas{
-        
         display: none;
     }
 
     .items-main-mcbook , .items-main-samsung , .items-main-tv{
-
         display: none;
     }
 
     .descripciones{
-
         display: none;
     }
 
     .opciones-listas{
-
         display: none;
     }
-
 }
 
-/* A partir de aca , Tablets & larger smartphones */
-
-@media (min-width : 361px ) /*  and (orientation : landscape)  */{
-
-
+@media (min-width : 361px ) {
 
     .precio-descuento {
-
         flex-direction: column;
         justify-content: flex-end;
         align-items: flex-end;
@@ -593,38 +507,26 @@ body {
 
     .precios {
         align-self: flex-start;
-
     }
 
     .descuentos {
         align-self: flex-start;
-
     }
 
-    .seccion-ofertas{
-
+    .seccion-ofertas {
         display: none;
     }
 
-    .items-main-mcbook , .items-main-samsung, .items-main-tv{
-
+    .items-main-mcbook , .items-main-samsung, .items-main-tv {
         display: none;
     }
-
-
 }
 
-
-/* MEDIA 769 */ /*  Laptops, larger tablets, small desktops*/                /* **************************************************** */
-
-
 @media (min-width : 769px) {
-
     
-    /*      HEADER      media : min width 769  */  
+    /*HEADER*/     
 
-    .contenedor-1{
-
+    .container {
         display: inline-flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -633,83 +535,65 @@ body {
         box-sizing: border-box;
         justify-content: space-around;
         align-items: center;
-        
     }
 
     .imagen-mercado-liebre {
-
-    display: flex;
-    flex-wrap: wrap;
-    width: 200px;
-    box-sizing: border-box;
-    order: 0;
-    flex-grow: .33;
-
+        display: flex;
+        flex-wrap: wrap;
+        width: 200px;
+        box-sizing: border-box;
+        order: 0;
+        flex-grow: .33;
     }   
 
-    .buscador-y-lupa{
-
-    display: flex;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    padding: 10px;
-    order: 1;
-    flex-grow: .33;
-
-
+    .buscador-y-lupa {
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        padding: 10px;
+        order: 1;
+        flex-grow: .33;
     }
 
-    .cuerpo-texto-icono{
-
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row ;
-    box-sizing: border-box;
-    max-width: 40   vw;
-    justify-content: flex-end;
-    order: 3;
-    flex-grow: .33;
-    position: relative;
-    top: 0px;
-
+    .cuerpo-texto-icono {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row ;
+        box-sizing: border-box;
+        max-width: 40   vw;
+        justify-content: flex-end;
+        order: 3;
+        flex-grow: .33;
+        position: relative;
+        top: 0px;
     }
 
-    
-    .hamburguer-button{
-    
-            display: none;
-        }
+    .hamburguer-button {
+        display: none;
+    }
 
-    /* Cambio el hamburguer button por una lista horizontal de opciones en el header. */
-    /* Esta se divide en dos. lado izquierdo, lado derecho. */
-
-    .opciones-listas{
-    
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            width: 95vw;
-            margin: auto;
-            align-items: flex-start;
-            justify-content: space-around;
-
-        }
+    .opciones-listas {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 95vw;
+        margin: auto;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
 
 
-    .lista-opciones{
-
-            display: flex;
-            flex-wrap: wrap;
-            flex-grow: 1;
-            font-family: 'Roboto';
-            font-size: 12px;
-            justify-content: flex-end;
-            align-items: center;
-            
+    .lista-opciones {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        font-family: 'Roboto';
+        font-size: 12px;
+        justify-content: flex-end;
+        align-items: center;   
     }
     
-    .opciones-de-lista-ofertas{
-        
+    .opciones-de-lista-ofertas { 
         display: flex;
         flex-wrap: wrap;
         box-sizing: border-box;
@@ -718,8 +602,7 @@ body {
         left: -80px;
     }
     
-    .opciones-de-lista-tiendas{
-        
+    .opciones-de-lista-tiendas {
         display: flex;
         flex-wrap: wrap;
         box-sizing: border-box;
@@ -728,8 +611,7 @@ body {
         left: -60px;
     }
     
-    .opciones-de-lista-vender{
-        
+    .opciones-de-lista-vender {    
         display: flex;
         flex-wrap: wrap;
         box-sizing: border-box;
@@ -738,8 +620,7 @@ body {
         left: -40px;
     }
     
-    .opciones-de-lista-ayuda{
-        
+    .opciones-de-lista-ayuda {     
         display: flex;
         flex-wrap: wrap;
         box-sizing: border-box;
@@ -748,8 +629,7 @@ body {
         left: -20px;
     }
     
-    
-    .lista-opciones-dos{
+    .lista-opciones-dos {
     
         display: flex;
         flex-wrap: wrap;
@@ -762,28 +642,23 @@ body {
         align-items: center;    
     }
 
-    .opciones-de-lista-cuenta{
-
+    .opciones-de-lista-cuenta {
         display: flex; 
         flex-wrap: wrap;
         box-sizing: border-box;
         position: relative;
-        right: 30px;
-        
+        right: 30px; 
     }
     
-    .fa-address-card{
-        
+    .fa-address-card {
         display: flex; 
         flex-wrap: wrap;
         box-sizing: border-box;
         position: relative;
         right: 25px;
-        
-        
     }
     
-    .opciones-de-lista-ingresa{
+    .opciones-de-lista-ingresa {
         display: flex;
         flex-wrap: wrap;
         box-sizing: border-box;
@@ -791,70 +666,55 @@ body {
         right: 0px;
     }
     
-    .fa-right-to-bracket{
+    .fa-right-to-bracket {
         display: flex;
         flex-wrap: wrap;
         box-sizing: border-box;
         position: relative;
         right: -5px;
-        
     }
     
-    .opciones-de-lista-compras{
+    .opciones-de-lista-compras {
         display: flex;
         flex-wrap: wrap;
         box-sizing: border-box;
         position: relative;
-        right: -30px;
-        
+        right: -30px;      
     }
     
-    .fa-basket-shopping{
+    .fa-basket-shopping {
         display: flex;
         flex-wrap: wrap;
         box-sizing: border-box;
         position: relative;
-        right: -35px;
-        
-        
+        right: -35px;        
     }
       
-    
-    /*      BODY        media : min width 769  */                     /* **************************************************** */
+    /*BODY*/
     
     .items-main {
-        
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        
-    }
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);    
+    } 
 
-    .seccion-ofertas{
-
+    .seccion-ofertas {
         display: none;
     }
     
-    .items-main-samsung , .items-main-tv{
-    
+    .items-main-samsung , .items-main-tv {
         display: none;
     }
 
-    .items-main-mcbook{
-
+    .items-main-mcbook {
         display: block;
     }
 
     .descripciones {
-
         display: block;
-    
     }
 
+/* footer */
 
-
-/* footer - cambio de imagen, con flexbox */
-
-.footer-align{
-
+.footer-align {
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
@@ -863,86 +723,56 @@ body {
     align-items: flex-start;
 }
 
-
-
-.footer-payment , .footer-envios , .footer-seguridad{
-    
+.footer-payment , .footer-envios , .footer-seguridad { 
     display: flex;
     width: 30%;
 }
 
 .footer-envios :hover {
-
     color:goldenrod;
     font-weight: bold;
 }
 
-.footer-payment:hover{
-
+.footer-payment:hover {
     color: green;
     font-weight: bold;
 }
 
-.fa-credit-card:hover{
-
+.fa-credit-card:hover {
     color: green;
 }
 
-.footer-seguridad :hover{
-
+.footer-seguridad :hover {
     color: red;
     font-weight: bold;
 }
 
-
-
-
-}/* Hasta aca es la media querie 769 */
-
-/* MEDIA 1279 */                        /* **************************************************** */
+}
 
 @media (min-width :1279px) {
-
-
-/* HEADER   min width 1279 */
-
-
-
-
-/* BODY       min width 1279 */
+    /*BODY*/
 
     .main {
-
         margin: auto;
         padding: 0px;
     }
 
     .titulares {
-
         align-self: flex-start;
         justify-content: flex-start;
         order: -1;
         display: none;
     }
 
-    .seccion-ofertas{
-
+    .seccion-ofertas {
         display: none;
     }
 
-    .seccion-ultima-visita{
-
+    .seccion-ultima-visita {
         display: flex;
     }
 
-    .items-main-tv, .items-main-samsung{
-
-
+    .items-main-tv, .items-main-samsung {
         display: block;
-
     }
-
-
-
-
 }
